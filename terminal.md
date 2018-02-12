@@ -58,7 +58,27 @@ Installed ruby-2.3.1 to /Users/judy/.rbenv/versions/2.3.1
 ```   
 gem -v
 2.6.12     
+```     
+
+```     
+gem install rails
+Successfully installed rails-5.1.4
+Parsing documentation for rails-5.1.4
+Done installing documentation for rails after 0 seconds
+1 gem installed      
+```     
+
 ```   
+gem list    
+...   
+rails(5.1.4)    
+```     
+
+```    
+mysql --version
+mysql  Ver 14.14 Distrib 5.6.36, for osx10.12 (x86_64) using  EditLine wrapper    
+```    
+
 
 
   

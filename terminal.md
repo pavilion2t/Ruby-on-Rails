@@ -51,7 +51,8 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 
 ```     
 rbenv install --list    
-rbenv install 2.X.X     
+rbenv install 2.X.X    
+Installed ruby-2.3.1 to /Users/judy/.rbenv/versions/2.3.1   
 ```     
 
 ```   

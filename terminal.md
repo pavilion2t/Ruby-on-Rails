@@ -52,6 +52,14 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 ```     
 rbenv install --list    
 rbenv install 2.X.X     
-```    
+```     
+
+```   
+gem -v
+2.6.12     
+```   
+
+
+  
 
 

@@ -101,6 +101,17 @@ mysql -uroot
 ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
 
 ```      
+```   
+// Web server   
+Apache2    
+NGINX (Engine X)    
+Passenger    
+Unicorn       
+WEBrick    
+Puma     
+```    
+
+
 
 ```    
 gem install mysql2
@@ -112,6 +123,12 @@ Installing ri documentation for mysql2-0.4.10
 Done installing documentation for mysql2 after 0 seconds
 1 gem installed    
 ```    
+
+```    
+rails new demo_project -d mysql    
+rails server   
+```   
+
 
 
 

@@ -20,4 +20,21 @@ ruby 2.4.1p111 (2017-03-22 revision 58053) [x86_64-darwin16]
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"    
 brew doctor    
 brew update     
+```      
+
+```   
+ brew install rbenv
+==> Installing dependencies for rbenv: ruby-build
+==> Installing rbenv dependency: ruby-build
+==> Downloading https://github.com/rbenv/ruby-build/archive/v20171226.tar.gz
+==> Downloading from https://codeload.github.com/rbenv/ruby-build/tar.gz/v20171226
+######################################################################## 100.0%
+==> ./install.sh
+🍺  /usr/local/Cellar/ruby-build/20171226: 373 files, 191.3KB, built in 7 seconds
+==> Installing rbenv
+==> Downloading https://homebrew.bintray.com/bottles/rbenv-1.1.1.high_sierra.bottle.tar.gz
+######################################################################## 100.0%
+==> Pouring rbenv-1.1.1.high_sierra.bottle.tar.gz
+🍺  /usr/local/Cellar/rbenv/1.1.1: 36 files, 62.7KB     
 ```    
+

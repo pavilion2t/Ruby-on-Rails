@@ -1,6 +1,6 @@
 ![](http://oq6t8cpwh.bkt.clouddn.com/onrails.png)
 # Ruby-on-Rails   
-网站： http://rubyonrails.org/      https://basecamp.com/     
+网站： https://www.ruby-lang.org http://rubyonrails.org/  https://basecamp.com/     
 
 ###  1 What is Ruby on Rails？
 Ruby 1995年诞生，Yukihiro Matsumoto("Matz") 多种用途，不局限于web应用    

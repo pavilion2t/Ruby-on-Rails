@@ -36,5 +36,17 @@ brew update
 ######################################################################## 100.0%
 ==> Pouring rbenv-1.1.1.high_sierra.bottle.tar.gz
 🍺  /usr/local/Cellar/rbenv/1.1.1: 36 files, 62.7KB     
+```        
+
+```   
+cat .bash_profile
+
+export PATH=${PATH}:~/Library/Android/sdk/platform-tools
+export PATH=/usr/local/mongodb/bin:$PATH
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export ANDROID_HOME=/usr/local/opt/android-sdk    
 ```    
+
 

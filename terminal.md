@@ -47,6 +47,11 @@ export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export ANDROID_HOME=/usr/local/opt/android-sdk    
+```       
+
+```     
+rbenv install --list    
+rbenv install 2.X.X     
 ```    
 
 

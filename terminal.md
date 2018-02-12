@@ -1,4 +1,4 @@
-### 补充一点终端知识：   
+### 终端安装部分：   
 tilde ~   
 clear = command + k  
   ```   
@@ -74,10 +74,47 @@ gem list
 rails(5.1.4)    
 ```     
 
-```    
+```      
+==> Caveats
+We've installed your MySQL database without a root password. To secure it run:
+    mysql_secure_installation
+
+MySQL is configured to only allow connections from localhost by default
+
+To connect run:
+    mysql -uroot
+
+To have launchd start mysql now and restart at login:
+  brew services start mysql
+Or, if you don't want/need a background service you can just run:
+  mysql.server start
+==> Summary
+🍺  /usr/local/Cellar/mysql/5.7.21: 323 files, 233.9MB  
+
 mysql --version
-mysql  Ver 14.14 Distrib 5.6.36, for osx10.12 (x86_64) using  EditLine wrapper    
+mysql  Ver 14.14 Distrib 5.6.36, for osx10.12 (x86_64) using  EditLine wrapper      
+
+brew services start mysql
+==> Successfully started `mysql` (label: homebrew.mxcl.mysql)   
+
+mysql -uroot
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+
+```      
+
 ```    
+gem install mysql2
+Fetching: mysql2-0.4.10.gem (100%)
+Building native extensions.  This could take a while...
+Successfully installed mysql2-0.4.10
+Parsing documentation for mysql2-0.4.10
+Installing ri documentation for mysql2-0.4.10
+Done installing documentation for mysql2 after 0 seconds
+1 gem installed    
+```    
+
+
+
 
 
 

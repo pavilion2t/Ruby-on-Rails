@@ -126,7 +126,22 @@ Done installing documentation for mysql2 after 0 seconds
 
 ```    
 rails new demo_project -d mysql    
-rails server   
+rails server      
+rails server
+=> Booting Puma
+=> Rails 5.1.4 application starting in development 
+=> Run `rails server -h` for more startup options
+Puma starting in single mode...
+* Version 3.11.2 (ruby 2.4.1-p111), codename: Love Song
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://0.0.0.0:3000
+Use Ctrl-C to stop
+Started GET "/" for 127.0.0.1 at 2018-02-12 11:57:25 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.8ms)
+Completed 200 OK in 199ms (Views: 10.2ms)
 ```   
 
 
